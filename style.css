@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.banner .topnav {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.banner .topnav .content {
+    margin-right: 20px;
+}
+
+.banner h2 {
+    color: rgb(255, 156, 161);
+}
+
+.banner .topnav .content a{
+    color: white;
+}
+
+.banner .cover {
+  max-height: 50vh;
+  height: 472px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-image: url(https://d2j6dbq0eux0bg.cloudfront.net/startersite/images/27263313/1587027470584.jpg);
+  background-size: cover;
+  background-position-y: 40%;
+  background-position-x: 50%;
+}
+
+.banner .header {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.banner .header .logo {
+  background-image: url(https://d2j6dbq0eux0bg.cloudfront.net/images/27263313/1375558023.jpg);
+  color: rgba(9, 9, 9, 1);
+
+  width: 112px;
+  height: 112px;
+  border: 6px solid currentColor;
+  border-radius: 50%;
+  background-color: currentColor;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin: auto;
+}
+
+.location .location_detail {
+  justify-content: center;
+}
+
+.location .location_detail .left {
+  margin-right: 20px;
+}
+
+.location iframe {
+  height: 100%;
+}
+
+.footer {
+  background-color: #efefef;
+}
+
+.footer .social_icon {
+  margin-right: 20px;
+}
