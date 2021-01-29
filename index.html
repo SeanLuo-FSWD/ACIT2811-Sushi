@@ -75,6 +75,53 @@
         </div>
       </div>
     </section>
+
+    <section class="reservation">
+      <h3>Make a reservation</h3>
+      <div class="formbox">
+        <div class="dropdown size flex">
+          <p>Party size</p>
+          <select id="size" name="size">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="dropdown date flex">
+          <p>Date</p>
+          <select id="date" name="date">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+          </select>
+        </div>
+        <div class="dropdown time flex">
+          <p>Time</p>
+          <select id="time" name="time">
+            <option value="5pm">5pm</option>
+            <option value="6pm">6pm</option>
+            <option value="7pm">7pm</option>
+            <option value="8pm">8pm</option>
+            <option value="9pm">9pm</option>
+            <option value="10pm">10pm</option>
+            <option value="11pm">11pm</option>
+          </select>
+        </div>
+      </div>
+      <button id="reserve">Submit</button>
+    </section>
+
     <section class="contact_us">
       <h3 class="text_center">Contact Us</h3>
       <div class="flex">
@@ -139,4 +186,5 @@
       </div>
     </div>
   </body>
+  <script src="./main.js"></script>
 </html>

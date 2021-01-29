@@ -7,22 +7,22 @@ section {
 }
 
 .banner .topnav {
-    display: flex;
-    position: absolute;
-    right: 20px;
-    top: 20px;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 .banner .topnav .content {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .banner h2 {
-    color: rgb(255, 156, 161);
+  color: rgb(255, 156, 161);
 }
 
-.banner .topnav .content a{
-    color: white;
+.banner .topnav .content a {
+  color: white;
 }
 
 .banner .cover {
@@ -70,6 +70,40 @@ section {
 
 .location iframe {
   height: 100%;
+}
+
+.reservation {
+  background-color: red;
+}
+
+.reservation h3 {
+  text-align: center;
+}
+
+.reservation .dropdown {
+  align-items: center;
+  margin-top: 12px;
+  justify-content: flex-start;
+}
+
+.reservation .dropdown p {
+  margin: 0;
+}
+
+.reservation .formbox {
+  width: 150px;
+  margin: auto;
+}
+
+.reservation select {
+  margin-left: 20px;
+}
+
+.reservation button {
+  margin: auto;
+  width: 100px;
+  display: block;
+  margin-top: 20px;
 }
 
 .footer {
