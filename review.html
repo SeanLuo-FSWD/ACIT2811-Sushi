@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="formatting.css" />
+    <link rel="stylesheet" href="review.css" />
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  </head>
+  <body>
+    <div class="content_wrapper">
+      <div class="past_review">
+        <div class="review_item">
+          <h2>
+            stars:
+            <img src="./assets/review_star.svg" class="rev_star" />
+            <img src="./assets/review_star.svg" class="rev_star" />
+            <img src="./assets/review_star.svg" class="rev_star" />
+            <img src="./assets/review_star.svg" class="rev_star" />
+            <img src="./assets/review_star.svg" class="rev_star" />
+          </h2>
+          <p>Good food and great price. Love it!</p>
+        </div>
+        <div class="review_item">
+          <h2>
+            stars:
+            <img src="./assets/review_star.svg" class="rev_star" />
+            <img src="./assets/review_star.svg" class="rev_star" />
+            <img src="./assets/review_star.svg" class="rev_star" />
+          </h2>
+          <p>It was okay</p>
+        </div>
+      </div>
+      <div class="write_review">
+        <h3>Submit a review</h3>
+        <div class="formbox">
+          <div class="dropdown flex">
+            <p>Number of stars</p>
+            <select id="stars_num">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="dropdown date flex">
+            <p>Description</p>
+            <textarea id="review_body"></textarea>
+          </div>
+        </div>
+        <button id="submit_review">Submit</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/review.js"></script>
+</html>
