@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sushi Town</title>     
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav></nav> 
+        </header>
+        <hr class="rounded">
+        <main>
+            <div class='menuIconContainer'>
+                <div class='menuIcon filterBlack pointer' id='appetizers' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="https://img.icons8.com/carbon-copy/100/000000/salad.png"/>
+                </div>
+                <div class='menuIcon filterBlack pointer' id='udon&donburi' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="https://img.icons8.com/wired/64/000000/noodles.png"/>
+                </div>
+                <div class='menuIcon filterBlack pointer' id='sashimi' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/sashimi.png"/>
+                </div>
+                <div class='menuIcon filterBlack pointer' id='nigiri' onmouseover='active(this);' onmouseout='disable(this);' onclick='showMenu(this);'>
+                    <img src="https://img.icons8.com/ios/50/000000/salmon-sushi.png"/>
+                </div>
+            </div>
+            <div class='menuContainer'>
+                <div class='menu' id='appetizersMenu'>
+                    <div class='menuItemContainer'>
+                        <div class='menuTitle'>
+                            <h2>Appetizers</h2>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Miso soup</p>
+                            <p>$1.25</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Ebi Sunomono</p>
+                            <p>$3.50</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Wakame salad</p>
+                            <p>$3.95</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Edamame</p>
+                            <p>$3.95</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Yakitori</p>
+                            <p>$4.50</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Gyoza</p>
+                            <p>$4.75</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Fried Oyster</p>
+                            <p>$5.50</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Tuna Tataki</p>
+                            <p>$8.95</p>
+                        </div>
+                        <div class='menuItem'>
+                            <p>Beef Tataki</p>
+                            <p>$8.95</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class='menu' id='udon&donburiMenu'>
+                        <div class='menuItemContainer'>
+                            <div class='menuTitle'>
+                                <h2>Udon & Donburi</h2>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Kitsune Udon</p>
+                                <p>$5.50</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Vegetable Udon</p>
+                                <p>$6.50</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Tempura Udon</p>
+                                <p>$7.25</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Seafood Udon</p>
+                                <p>$9.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Ten Don</p>
+                                <p>$7.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Salmon Don</p>
+                                <p>$12.50</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Tuna Don</p>
+                                <p>$12.50</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Unagi Don</p>
+                                <p>$13.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Chirashi Don</p>
+                                <p>$13.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='menu' id='sashimiMenu'>
+                        <div class='menuItemContainer'>
+                            <div class='menuTitle'>
+                                <h2>Sashimi</h2>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Hokkigai Sashimi</p>
+                                <p>$9.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Tun　Sashimi</p>
+                                <p>$11.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Salmon Sashimi</p>
+                                <p>$11.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Toro Sashimi</p>
+                                <p>$13.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Tako Sashimi</p>
+                                <p>$11.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Hamachi Sashimi</p>
+                                <p>$17.50</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Uni Sashimi</p>
+                                <p>$17.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Assorted Sashimi</p>
+                                <p>$18.95</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Deluxe Assorted Sashimi</p>
+                                <p>$8.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class='menu' id='nigiriMenu'>
+                        <div class='menuItemContainer'>
+                            <div class='menuTitle'>
+                                <h2>Nigiri Sushi</h2>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Tamago</p>
+                                <p>$1.20</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Inari</p>
+                                <p>$1.20</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Tai</p>
+                                <p>$1.20</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Ebi</p>
+                                <p>$1.50</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Toro</p>
+                                <p>$1.70</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Amaebi</p>
+                                <p>$1.80</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Unagi</p>
+                                <p>$2.00</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Ikura</p>
+                                <p>$2.00</p>
+                            </div>
+                            <div class='menuItem'>
+                                <p>Uni</p>
+                                <p>$2.95</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class='pointer' id='x' onclick='hideMenu();'>
+                    <img src="https://img.icons8.com/plumpy/24/000000/close-window.png"/>
+                    <a href="https://icons8.com/icon/PhKcfzw7JOTS/close-window">Close Window icon by Icons8</a>
+                </div>
+            </div>
+        </main>
+        <script src='./main.js'></script>
+        <script src='./menu.js'></script>
+    </body>
+</html>
