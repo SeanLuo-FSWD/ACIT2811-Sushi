@@ -22,7 +22,7 @@ section {
 }
 
 .banner .topnav .content a {
-  color: white;
+  color: black;
 }
 
 .banner .cover {
@@ -113,6 +113,38 @@ section {
 .footer .social_icon {
   margin-right: 20px;
 }
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 20px;
+}
+
+nav li {
+  display: inline;
+  padding: 15px;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: large;
+}
+
+nav li a:hover {
+  background-color:rgb(255, 156, 161);
+  color:black;
+
 /* menu */
 .pointer {
   cursor: pointer;
@@ -179,4 +211,5 @@ section {
 }
 #x img {
   width: 30px;
+
 }
