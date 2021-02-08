@@ -113,3 +113,70 @@ section {
 .footer .social_icon {
   margin-right: 20px;
 }
+/* menu */
+.pointer {
+  cursor: pointer;
+}
+.showMenu {
+  display: block;
+}
+
+.menuIconContainer {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.menuIcon{
+  display: flex;
+  justify-content: center;
+  flex: 1 0 50%;
+  margin: 50px 0;
+}
+.menuIcon img{
+  height: 70%;
+}
+.filterBlack {
+  filter: brightness(0);
+}
+.menuContainer {
+  display: none;
+  width: 50%;
+  margin: auto;
+  border: solid #361c00 5px;
+  border-radius: 20px;
+  position: relative;
+}
+.menu {
+  display: none;
+  width: 90%;
+  margin: auto;
+}
+.menuTitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+.menuTitle h2 {
+  font-weight: bold;
+}
+.menuTitle p {
+  font-size: 15px;
+  margin-top: 0;
+}
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+}
+.menuItem p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 0;
+}
+#x {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#x img {
+  width: 30px;
+}
