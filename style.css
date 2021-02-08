@@ -114,7 +114,6 @@ section {
   margin-right: 20px;
 }
 
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -142,13 +141,14 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color:rgb(255, 156, 161);
-  color:black;
-
+  background-color: rgb(255, 156, 161);
+  color: black;
+}
 /* menu */
 .pointer {
   cursor: pointer;
 }
+
 .showMenu {
   display: block;
 }
@@ -159,13 +159,13 @@ nav li a:hover {
   flex-wrap: wrap;
   margin: auto;
 }
-.menuIcon{
+.menuIcon {
   display: flex;
   justify-content: center;
   flex: 1 0 50%;
   margin: 50px 0;
 }
-.menuIcon img{
+.menuIcon img {
   height: 70%;
 }
 .filterBlack {
@@ -211,5 +211,4 @@ nav li a:hover {
 }
 #x img {
   width: 30px;
-
 }
