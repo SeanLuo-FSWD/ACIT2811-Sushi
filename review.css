@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+.content_wrapper {
+  width: 100%;
+  max-width: 280px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.review_item {
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+.rev_star {
+  width: 30px;
+}
+
+.write_review {
+  margin-top: 50px;
+}
+
+.write_review .dropdown {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.write_review .dropdown p {
+  margin-right: 20px;
+}
+
+.write_review .dropdown select {
+  height: 30px;
+}
+
+.write_review #submit_review {
+  margin-top: 20px;
+  width: 100%;
+}
